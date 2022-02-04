@@ -4,14 +4,18 @@
 package com.atcs.java;
 
 public class Assignment {
+	
 	public static void main(String[] args) {
+		
 		CountLettersInArray obj = new CountLettersInArray();
+		
 		char st[]= obj.creatArraay();
 		obj.displayArray(st);
 		char st2[] = obj.unique(st);
 		int count[] = obj.countChar(st2,st);
 		obj.displayCount(count,st2);
 	}
+
 }
 
 # CountLettersInArray Class (CountLettersInArray.java)
